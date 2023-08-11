@@ -1,8 +1,8 @@
 
 /**
- * Interfaces contain methods without bodies, and classes and implement the interfaces must implement the methods.
+ * Interfaces contain methods without bodies, and classes which implement the interfaces must implement those methods.
  * Notice how this interface has a signature for a method, but it doesn't have a body (it ends with a semicolon
- * rather than curly braces.) Its code will be written by the implementing class - in this example, SampleClassC.
+ * rather than curly braces.) The method body will be written by the implementing class - in this example, SampleClassC.
  * Implementing an interface can be referred to as a contractual guarantee that a class will exhibit some behavior.
  *
  * You can implement multiple interfaces, but you cannot extend multiple classes.
